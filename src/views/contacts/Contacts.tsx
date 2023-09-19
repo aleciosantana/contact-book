@@ -1,6 +1,5 @@
 import { type Component, createSignal, For } from 'solid-js'
-import { ContactCard } from '../../components/ContactCard'
-import { SearchInput } from '../../components/SearchInput'
+import { ContactCard, SearchInput } from '../../components'
 import { type Contact } from '../../types/contact'
 
 import data from '../../data.json'
